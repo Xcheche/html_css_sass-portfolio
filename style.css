@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif, Arial, Helvetica;
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+#projects >div{
+    background-color: antiquewhite;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+.navlink > ul , .navlink > li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 20px; /* Adjust padding to create space inside the button */
+    margin: 10px solid blue;
+    background-color: #45a05344;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    /* Add a red border to create button-like appearance */
+    cursor: pointer; /* Change cursor to pointer on hover to indicate interactivity */
+    list-style: none;
+}
+
+
+.navlink,ul,li:hover {
+    background-color: blue; /* Change background color on hover for better visual feedback */
+}
+.navlink,ul,li:visited{
+    background-color: black; /* Change background color on hover for better visual feedback */
+}
+.navlink,ul,li:active{
+    background-color: paleturquoise; /* Change background color on hover for better visual feedback */
+}
+.nav-link2 ,
+.nav-link2 > li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    /* justify-content: space-between; */
+    list-style: none;
+    text-align: center;
+    padding: 10px 20px; /* Adjust padding to create space inside the button */
+    margin: 10px solid blue;
+    border: 2px ;
+    border-radius: 40px; /* Add a red border to create button-like appearance */
+    cursor: pointer; /* Change cursor to pointer on hover to indicate interactivity */
+    list-style: none;
+    /* background-color: #45a05344; */
+    color: white;
+    list-style: none;
+}
+.about{
+    text-align: center;
+}
+
+
+ /* Basic CSS for form styling */
+ body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.contact{
+    text-align: center;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
